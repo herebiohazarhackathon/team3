@@ -35,7 +35,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = team31.0.0
-DISTDIR = /home/yurii/Downloads/build-team3-Desktop_Qt_5_10_1_GCC_64bit-Debug/.tmp/team31.0.0
+DISTDIR = /home/yurii/Downloads/team3/.tmp/team31.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/yurii/Qt/5.10.1/gcc_64/lib -shared -Wl,-soname,libteam3.so.1
 LIBS          = $(SUBLIBS) -L/home/yurii/Qt/5.10.1/gcc_64/lib -lQt5Core -lpthread 
@@ -717,7 +717,18 @@ team3.o: ../team3_sample-master/team3.cpp ../team3_sample-master/team3.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qglobalstatic.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qmutex.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qnumeric.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qversiontagging.h
+		../../Qt/5.10.1/gcc_64/include/QtCore/qversiontagging.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/QString \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qstring.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qchar.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qbytearray.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qrefcount.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qnamespace.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qarraydata.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qstringliteral.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qstringview.h \
+		../../Qt/5.10.1/gcc_64/include/QtCore/qstringbuilder.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o team3.o ../team3_sample-master/team3.cpp
 
 ####### Install
