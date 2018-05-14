@@ -717,18 +717,7 @@ team3.o: ../team3_sample-master/team3.cpp ../team3_sample-master/team3.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qglobalstatic.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qmutex.h \
 		../../Qt/5.10.1/gcc_64/include/QtCore/qnumeric.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qversiontagging.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/QString \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qstring.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qchar.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qbytearray.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qrefcount.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qnamespace.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qarraydata.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qstringliteral.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qstringview.h \
-		../../Qt/5.10.1/gcc_64/include/QtCore/qstringbuilder.h
+		../../Qt/5.10.1/gcc_64/include/QtCore/qversiontagging.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o team3.o ../team3_sample-master/team3.cpp
 
 ####### Install
